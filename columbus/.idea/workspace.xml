@@ -11,10 +11,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="307">
               <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -53,12 +53,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="command.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="command.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/interface/command.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="368">
+              <caret line="49" column="137" lean-forward="false" selection-start-line="49" selection-start-column="137" selection-end-line="49" selection-end-column="137" />
+              <folding>
+                <element signature="e#1382#1389#1#HTML" expanded="true" />
+                <element signature="e#1673#1680#1#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,8 +144,8 @@
         <option value="$PROJECT_DIR$/interface/urls.py" />
         <option value="$PROJECT_DIR$/interface/forms.py" />
         <option value="$PROJECT_DIR$/templates/interface/home.html" />
-        <option value="$PROJECT_DIR$/templates/interface/command.html" />
         <option value="$PROJECT_DIR$/interface/views.py" />
+        <option value="$PROJECT_DIR$/templates/interface/command.html" />
       </list>
     </option>
   </component>
@@ -429,14 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/interface/command.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interface/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -463,10 +458,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interface/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="307">
           <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/interface/command.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="49" column="137" lean-forward="false" selection-start-line="49" selection-start-column="137" selection-end-line="49" selection-end-column="137" />
+          <folding>
+            <element signature="e#1382#1389#1#HTML" expanded="true" />
+            <element signature="e#1673#1680#1#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
