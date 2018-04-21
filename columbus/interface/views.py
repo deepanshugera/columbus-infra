@@ -30,5 +30,8 @@ def exec_command(request):
    user_code=""
    if request.method == 'POST':
       user_code=request.POST.get('code')
+      print("-----------------user code-----------------")
+      print(user_code)
+      print("-----------------user code-----------------")
       result="result_goes_here"
    return render(request,"interface/command.html",{"user_code":user_code,"result":result})
