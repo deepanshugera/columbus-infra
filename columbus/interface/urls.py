@@ -19,4 +19,6 @@ from . import views
 
 urlpatterns = [
     path('', views.hello,name='hello'),
+    path('upload_file', views.upload_file,name='upload_file'),
+    path('exec_command', views.exec_command, name='exec_command'),
 ]
