@@ -65,11 +65,12 @@
         <div class="col-lg-12 text-center">
           <h1 class="mt-5">...Getting Started...</h1>
           <p class="lead">Upload a csv file to begin</p>
-            {% if error %}
-            <div class="alert alert-danger" >
+           {% if error %}
+            <div class="alert alert-danger alert-dismissible" >
+             <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
              {{ error }}
             </div>
-            {% endif %}
+        {% endif %}
           <form name = "form" enctype = "multipart/form-data"
          action = "{% url "upload_file" %}" method = "POST" >
             {% csrf_token %}
