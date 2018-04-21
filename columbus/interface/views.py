@@ -5,5 +5,5 @@ from django.http import HttpResponse
 
 def hello(request):
 
-   text = """<h1>welcome to my columbus !</h1>"""
-   return HttpResponse(text)
+   result="hi"
+   return render(request,"interface/home.html",{"res":result})
