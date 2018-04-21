@@ -3,6 +3,7 @@ from .forms import CodeForm
 # Create your views here.
 from django.http import HttpResponse
 from django.core.files.storage import FileSystemStorage
+
 import pandas as pd
 import numpy as np
 def hello(request):
@@ -25,18 +26,20 @@ def upload_file(request):
 def exec_command(request):
     #last csv file uploaded by the user
     csv_file=request.session['csv_file']
+    print("-----------csv-------------")
+    print(csv_file)
+    print("-----------csv-------------")
     #variable to store the result
     result=""
     #variable to hold the user code
     user_code=""
     show_result = False#set this to false to hide the result
     df = pd.read_csv(csv_file)
-    print(df.head())
     if request.method == 'POST':
         user_code=request.POST.get('code')
         print("-----------------user code-----------------")
         print(user_code)
         print("-----------------user code-----------------")
         show_result = True
-        result="result_goes_here"
+        result=df.head().to_html()
     return render(request,"interface/command.html",{"user_code":user_code,"show_result":show_result,"result":result})
