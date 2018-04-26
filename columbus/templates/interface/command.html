@@ -60,7 +60,7 @@
      action = "{% url "exec_command" %}" method = "POST" >
         {% csrf_token %}
         <div class="form-group">
-          <label for="comment">Code:</label>
+            <label for="comment"><b>Code:</b> The csv file is loaded into the pandas DataFrame df</label>
           <textarea class="form-control" name="code" rows="5" id="comment" required="required">{{ user_code }}</textarea>
         </div>
         <button type="submit" class="btn btn-primary">Run</button>
